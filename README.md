@@ -51,7 +51,6 @@ Your encrypted data is stored in a Supabase PostgreSQL database, but the server 
 ```bash
 # Clone the repository
 git clone https://github.com/NotoshaDev/Vault_ultraseguro.git
-cd vault_ultraseguro
 
 # Install dependencies
 npm install
