@@ -42,17 +42,6 @@ Your encrypted data is stored in a Supabase PostgreSQL database, but the server 
 - **Font**: JetBrains Mono
 - **Icons**: Lucide React
 
-##  Color Palette (Cyberpunk Theme)
-
-- **Background**: Slate 950 (almost black)
-- **Primary**: Cyan 400/500 (Matrix-style)
-- **Secondary**: Emerald 400 (success states)
-- **Alerts**: Amber/Red (warnings)
-- **Text**: Slate 100/200
-- **Borders**: Slate 800 with glow effects
-
-##  Getting Started
-
 ### Prerequisites
 - Node.js 18+ installed
 - Supabase account (free tier works)
@@ -61,8 +50,8 @@ Your encrypted data is stored in a Supabase PostgreSQL database, but the server 
 
 ```bash
 # Clone the repository
-git clone https://github.com/notoshadev/vaulsecretonotosha.git
-cd vaulsecretonotosha
+git clone https://github.com/NotoshaDev/Vault_ultraseguro.git
+cd vault_ultraseguro
 
 # Install dependencies
 npm install
