@@ -132,7 +132,7 @@ secrets (
 **Created & Designed by [NotoshaDev](https://github.com/notoshadev)**
 
 [![GitHub](https://img.shields.io/badge/GitHub-notoshadev-181717?logo=github)](https://github.com/notoshadev)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-notoshadev-0077B5?logo=linkedin)](https://www.linkedin.com/in/notoshadev)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-notoshadev-0077B5?logo=linkedin)](https://www.linkedin.com/in/gustavo-ernesto-villarroel-espinoza-4184ab246)
 
  *Zero-Knowledge Security*
 
