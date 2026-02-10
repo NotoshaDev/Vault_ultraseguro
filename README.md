@@ -1,4 +1,4 @@
-# NotoshaVault 🔐
+# NotoshaVault
 
 [![Next.js](https://img.shields.io/badge/Next.js-14-black?logo=next.js)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?logo=typescript)](https://www.typescriptlang.org/)
@@ -51,7 +51,6 @@ Your encrypted data is stored in a Supabase PostgreSQL database, but the server 
 ```bash
 # Clone the repository
 git clone https://github.com/NotoshaDev/Vault_ultraseguro.git
-cd vault_ultraseguro
 
 # Install dependencies
 npm install
