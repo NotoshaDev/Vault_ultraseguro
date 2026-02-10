@@ -20,16 +20,16 @@ Your encrypted data is stored in a Supabase PostgreSQL database, but the server 
 
 ##  Features
 
-- ** Zero-Knowledge Encryption**: AES-256-GCM with PBKDF2 key derivation (100,000 iterations)
-- ** Cloud Sync**: Encrypted data stored in Supabase PostgreSQL with Row Level Security
-- ** Multi-User Support**: Each user has their own isolated vault identified by email
-- ** Password Generator**: Customizable strength with visual feedback and entropy calculation
-- ** Security Dashboard**: Real-time password health analysis and security recommendations
-- ** Instant Search**: Filter and find secrets in real-time
-- ** Auto-Lock**: Automatic vault locking after 5 minutes of inactivity
-- ** Modern UI**: Cyberpunk-themed interface with smooth animations
-- ** Responsive Design**: Works seamlessly on desktop and mobile devices
-- ** Hybrid Storage**: Database-first with localStorage cache for offline access
+- Zero-Knowledge Encryption**: AES-256-GCM with PBKDF2 key derivation (100,000 iterations)
+- Cloud Sync**: Encrypted data stored in Supabase PostgreSQL with Row Level Security
+- Multi-User Support**: Each user has their own isolated vault identified by email
+- Password Generator**: Customizable strength with visual feedback and entropy calculation
+- Security Dashboard**: Real-time password health analysis and security recommendations
+- Instant Search**: Filter and find secrets in real-time
+- Auto-Lock**: Automatic vault locking after 5 minutes of inactivity
+- Modern UI**: Cyberpunk-themed interface with smooth animations
+- Responsive Design**: Works seamlessly on desktop and mobile devices
+- Hybrid Storage**: Database-first with localStorage cache for offline access
 
 ##  Tech Stack
 
@@ -41,35 +41,6 @@ Your encrypted data is stored in a Supabase PostgreSQL database, but the server 
 - **Validation**: Zod
 - **Font**: JetBrains Mono
 - **Icons**: Lucide React
-
-##  Project Structure
-
-```
-vaulsecretonotosha/
-├── app/                    # Next.js App Router pages
-│   ├── layout.tsx         # Root layout with providers
-│   ├── page.tsx           # Landing page
-│   ├── login/             # Login page
-│   ├── register/          # Registration page
-│   ├── vault/             # Vault management & secrets
-│   │   └── security/      # Security dashboard
-│   ├── password-generator/# Password generator tool
-│   └── encryption-proof/  # Transparency page
-├── components/
-│   └── ui/                # Reusable UI components (Button, Input, Card, etc.)
-├── contexts/              # React Context providers
-│   ├── VaultContext.tsx   # Authentication & vault management
-│   └── SecretsContext.tsx # Secrets CRUD operations
-├── lib/
-│   ├── crypto/            # Encryption utilities (AES-256-GCM, PBKDF2)
-│   ├── supabase/          # Supabase client & types
-│   ├── services/          # Database service layers
-│   └── utils.ts           # Helper functions
-├── hooks/                 # Custom React hooks
-├── types/                 # TypeScript type definitions
-├── supabase/              # Database migrations & schema
-└── public/                # Static assets
-```
 
 ##  Color Palette (Cyberpunk Theme)
 
@@ -174,6 +145,6 @@ secrets (
 [![GitHub](https://img.shields.io/badge/GitHub-notoshadev-181717?logo=github)](https://github.com/notoshadev)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-notoshadev-0077B5?logo=linkedin)](https://www.linkedin.com/in/notoshadev)
 
-🔐 *Zero-Knowledge Security*
+ *Zero-Knowledge Security*
 
 </div>
